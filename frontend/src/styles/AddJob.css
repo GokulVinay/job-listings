@@ -1,0 +1,123 @@
+/* AddJob.css */
+.add-job-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.add-job-form {
+    width: 55%;
+    padding: 40px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-job-form h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.add-job-form input,
+.add-job-form select,
+.add-job-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.add-job-form textarea {
+    height: 80px;
+    resize: none;
+}
+
+.skills-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.skills-container input {
+    flex: 1;
+}
+
+.skills-container button {
+    padding: 8px 12px;
+    background-color: #ff3c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.skill-tag {
+    background: #ff3c3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.skill-tag span {
+    margin-left: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.cancel-btn {
+    background: gray;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    background: #ff3c3c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-btn:hover {
+    background: #888;
+}
+
+.submit-btn:hover {
+    background: darkred;
+}
+
+.add-job-image {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://st2.depositphotos.com/3837271/8401/i/450/depositphotos_84015290-stock-photo-job-search-written-in-search.jpg");
+}
+
+.add-job-image h3 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
